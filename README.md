@@ -10,8 +10,8 @@ API desenvolvida com Laravel 12, utilizando Laravel Sail (Docker). A API é resp
 
  ##### 1. Clone o repositório:
    ```bash
-    git clone <seu-repositorio-url>
-    cd nome-do-projeto
+    git clone https://github.com/juanfranca/PlaceApi.git 
+    cd PlaceApi
    ```
  ##### 2. Copie o arquivo de variáveis de ambiente:
    ```bash
