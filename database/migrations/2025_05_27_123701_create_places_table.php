@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('places', function (Blueprint $table) {
             $table->id();
+            $table->string('name')->unique();
+            $table->string('slug')->unique()->index();
+            $table->string('city');
+            $table->string('state');
             $table->timestamps();
         });
     }
